@@ -1,0 +1,213 @@
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+}
+
+.container {
+    width: 100%;
+    height: 650px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: black;
+
+}
+
+.container header {
+    width: 70%;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 40px;
+}
+
+.container header .logo h2 {
+    color: aliceblue;
+    font-size: 28px;
+    font-family: Tahoma;
+
+}
+
+.container header nav ul {
+    display: flex;
+    column-gap: 20px;
+    align-items: center;
+
+}
+
+.container header nav ul li {
+    color: aliceblue;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+}
+
+.container header nav ul li:hover {
+    text-decoration: underline;
+
+}
+
+.container header nav i {
+    color: aliceblue;
+    font-size: 15px;
+}
+
+.container header nav {
+    display: flex;
+    align-items: center;
+    column-gap: 20px;
+}
+
+.container .first-section {
+    width: 100%;
+    height: 500px;
+    display: flex;
+    margin-top: 50px;
+    justify-content: center;
+    align-items: center;
+}
+
+.container .first-section .left {
+    width: 45%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    margin-left: 120px;
+    row-gap: 30px;
+}
+
+.container .first-section .left hr {
+    width: 60px;
+    height: 2px;
+    margin: 50px 0;
+    border: none;
+    background-color: #E9204F;
+}
+
+.container .first-section .left h1 {
+    display: flex;
+    align-content: space-around;
+    line-height: 60px;
+    font-size: 60px;
+    font-family: tahoma;
+    color: aliceblue;
+}
+
+.container .first-section .left button {
+    width: 150px;
+    height: 50px;
+    font-size: 13px;
+    border-radius: 2px;
+    background-color: black;
+    color: aliceblue;
+    border-color: #E9204F;
+}
+
+.container .first-section .left button:hover {
+    background-color: #E9204F;
+}
+
+.container .first-section .right {
+    width: 45%;
+}
+
+.container .first-section .right img {
+    width: 460px;
+    height: 500px;
+}
+
+.second-section {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    column-gap: 30px;
+    padding-top: 60px;
+    background-color: black;
+}
+
+.second-section .card {
+    width: 280px;
+    height: 200px;
+    padding: 60px 15px;
+    display: flex;
+    flex-direction: column;
+    row-gap: 10px;
+    background-color: #1B1B1B;
+
+}
+
+.second-section .card:first-child{
+    background-color: #E9204F;
+}
+
+.second-section .card:hover {
+    background-color: #E9204F;
+}
+
+.second-section .card i {
+color: #fff;
+font-size: 35px;
+margin-bottom: 30px;
+}
+
+.second-section .card h2 {
+color: #fff;
+font-size: 25px;
+font-family: sans-serif;
+}
+.second-section .card hr{
+    width: 40px;
+    height: 2px;
+    background-color: #fff;
+    border: none;
+}
+
+.second-section .card p {
+    color: #fff;
+    margin-top: 13px;
+    font-family: sans-serif;
+}
+.third-section{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    column-gap: 30px;
+    padding-top: 60px;
+}
+.third-section h2{
+    width: 150px;
+    height: 50px;
+    font-size: 30px;
+    border-radius: 2px;
+    font-family: tahoma;
+    
+}
+.third-section p{
+    display: flex;
+    align-items: center;
+    font-family: sans-serif;
+   
+}
+
+.third-section .card{
+    width: 180px;
+    height: 100px;
+    padding: 40px 15px;
+    display: flex;
+    flex-direction: column;
+    row-gap: 10px;
+    
+}
+.third-section{
+    display: flex;
+    flex-direction: column;
+    margin-left: 50px;
+    row-gap: 30px;
+}
+.third-section hr{
+    width: 40px;
+    height: 2px;
+    margin: 50px 0;
+    border: none;
+    background-color: #E9204F;
+}
